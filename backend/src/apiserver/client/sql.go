@@ -34,7 +34,7 @@ func CreateMySQLConfig(user, password, mysqlServiceHost, mysqlServicePort,
 	dbName, mysqlGroupConcatMaxLen string, mysqlExtraParams map[string]string,
 ) *mysql.Config {
 	params := map[string]string{
-		"charset":              "utf8",
+		"charset":              "utf8mb4",
 		"parseTime":            "True",
 		"loc":                  "Local",
 		"group_concat_max_len": mysqlGroupConcatMaxLen,
