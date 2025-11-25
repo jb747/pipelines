@@ -1,7 +1,7 @@
 {
   "description": "Frontend webserver package for Kubeflow Pipelines",
   "main": "server.js",
-  "name": "KubeflowPipelineFrontendWebServer",
+  "name": "kubeflow-pipeline-frontend-webserver",
   "dependencies": {
     "@aws-sdk/credential-providers": "^3.621.0",
     "@google-cloud/storage": "^2.5.0",
